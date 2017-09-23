@@ -6,7 +6,8 @@ module.exports = {
     entry: './src/scripts/index.js',
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'build')
+        path: path.resolve(__dirname, 'build'),
+        publicPath: '/build/'
     },
     devtool: 'cheap-module-source-map',
     module: {
