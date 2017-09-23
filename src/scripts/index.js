@@ -1,7 +1,10 @@
 import '../scss/styles.scss';
 import Main from './Main';
 
-// let inst = new Main();
-// let node = document.querySelector('#print-msg');
+//let inst = new Main();
+let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const d = new Date();
+const dayName =days[d.getDay()];
+let node = document.querySelector('#print-msg');
 
-// node.innerHTML = inst.genMsg();
+node.innerHTML = "Happy " + dayName + "!";

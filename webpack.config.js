@@ -54,7 +54,7 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, '/'),
         publicPath: '/build/',
-        hot: true,
+        hot: false,
         inline: true,
         compress: true,
         port: 9000,
@@ -71,6 +71,6 @@ module.exports = {
             allChunks: true,
             disable: process.env.NODE_ENV === 'development'
         }),
-        new webpack.HotModuleReplacementPlugin()
+        //new webpack.HotModuleReplacementPlugin()
     ]
 };
