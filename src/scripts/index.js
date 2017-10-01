@@ -7,4 +7,4 @@ const d = new Date();
 const dayName =days[d.getDay()];
 let node = document.querySelector('#print-msg');
 
-node.innerHTML = "Happy " + dayName + "!";
+node.innerHTML = "Happy " + dayName + "!" + " " + "😀" ;
