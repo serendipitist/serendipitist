@@ -114,7 +114,7 @@ var d = new Date();
 var dayName = days[d.getDay()];
 var node = document.querySelector('#print-msg');
 
-node.innerHTML = "Happy " + dayName + "!";
+node.innerHTML = "Happy " + dayName + "!" + " " + "😀";
 
 /***/ })
 /******/ ]);
