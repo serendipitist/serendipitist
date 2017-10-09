@@ -372,8 +372,10 @@ template {
 
 .blog-container {
   width: 1028px;
-  margin: 0 auto;
-  background-color: #f3f3f3; }
+  margin: 0 auto; }
+
+body {
+  background-color: #f4f4f4; }
 
 .blog-title {
   color: #ed1a4e;
@@ -409,7 +411,7 @@ template {
   display: flex;
   justify-content: space-around;
   margin: 50px;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Fira Sans', sans-serif;
   line-height: 1.5;
   width: calc(83.33333% - 36.66667px);
@@ -420,5 +422,23 @@ template {
       width: 100%;
       font-size: 20px;
       margin: 0; } }
+
+.blog-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  widht: 100%;
+  height: 120px;
+  background-color: blue; }
+
+.message {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+  @media screen and (max-width: 480px) {
+    .message {
+      width: calc(33.33333% - 26.66667px);
+      float: left;
+      margin-left: 20px; } }
 
 /*# sourceMappingURL=main.css.map*/
