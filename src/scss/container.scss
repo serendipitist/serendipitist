@@ -71,3 +71,23 @@ body {
     @include grid-column(4);
   }
 }
+
+.contact-field {
+  padding: 20px;
+  margin: 10px 30px;
+  @media screen and (max-width: 480px) {
+    @include grid-column(4);
+  }
+}
+
+.submit-field {
+  padding: 20px 46px;
+  text-align: center;
+  margin: 20px 0;
+  background-color: $title-underline;
+  border-radius: 8%;
+  border: none;
+  display: flex;
+  cursor: pointer;
+
+}

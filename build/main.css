@@ -441,4 +441,23 @@ body {
       float: left;
       margin-left: 20px; } }
 
+.contact-field {
+  padding: 20px;
+  margin: 10px 30px; }
+  @media screen and (max-width: 480px) {
+    .contact-field {
+      width: calc(33.33333% - 26.66667px);
+      float: left;
+      margin-left: 20px; } }
+
+.submit-field {
+  padding: 20px 46px;
+  text-align: center;
+  margin: 20px 0;
+  background-color: #30c3e8;
+  border-radius: 8%;
+  border: none;
+  display: flex;
+  cursor: pointer; }
+
 /*# sourceMappingURL=main.css.map*/
