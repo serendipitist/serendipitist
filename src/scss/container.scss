@@ -102,3 +102,17 @@ body {
     @include grid-column(3);
   }
 }
+
+.circular path {
+  fill: none;
+}
+.circular {
+  width: 30em;
+  height: 30em;
+  margin: 3em auto 0;
+}
+
+.circular svg {
+  display: block;
+  overflow: visible;
+}

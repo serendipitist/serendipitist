@@ -473,4 +473,16 @@ body {
       float: left;
       margin-left: 20px; } }
 
+.circular path {
+  fill: none; }
+
+.circular {
+  width: 30em;
+  height: 30em;
+  margin: 3em auto 0; }
+
+.circular svg {
+  display: block;
+  overflow: visible; }
+
 /*# sourceMappingURL=main.css.map*/
